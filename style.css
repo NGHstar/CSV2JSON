@@ -1,0 +1,53 @@
+body {
+  background-color: #ebeeef;
+  font-size: 1.2rem;
+}
+
+.card {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 15px;
+  padding: 2rem;
+  font-family: consolas;
+  gap: 8px;
+}
+
+textarea {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.convert {
+  margin: 0 auto;
+  width: 140px;
+  height: 40px;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  font-family: consolas;
+  background-color: royalblue;
+  border-radius: 12px;
+  margin-top: 2.1rem;
+  margin-bottom: 1rem;
+  transition: 0.2s;
+}
+
+.convert:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.error-label {
+  color: red;
+  display: none;
+}
+
+.error-label.visible {
+  display: block;
+}
