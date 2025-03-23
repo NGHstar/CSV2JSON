@@ -14,6 +14,45 @@ body {
   gap: 8px;
 }
 
+input[type="file"] {
+  font-family: consolas;
+  font-size: 1.1rem;
+}
+
+input::file-selector-button {
+  border: none;
+  font-family: consolas;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  margin-right: 12px;
+  font-size: 1.1rem;
+  background-color: royalblue;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+input::file-selector-button:hover {
+  background-color: deepskyblue;
+  cursor: pointer;
+}
+
+.read-button {
+  border: none;
+  font-family: consolas;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  margin-right: 12px;
+  font-size: 1.1rem;
+  background-color: peru;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.read-button:hover {
+  background-color: orange;
+  cursor: pointer;
+}
+
 textarea {
   padding: 0.5rem;
   font-size: 1.2rem;
